@@ -80,3 +80,21 @@ Azure creates an ongoing monthly cost and requires the company to monitor usage,
 
 **Verdict:**  
 Azure is the best match because technicians need remote access and the system needs room to grow.
+
+## Recommendation
+
+I recommend deploying the BAS Equipment and Service History System in Microsoft Azure.
+
+The deciding requirement is **remote accessibility**.
+
+BAS and controls technicians spend much of their time working at customer facilities instead of at the company's main office. They need access to equipment information and previous service history while troubleshooting systems at different locations.
+
+Azure allows the workload to be hosted in the cloud without depending on a laptop, workstation, or physical server located at the company's office. It also gives the company room to expand the system as more customers, buildings, and equipment are added.
+
+In the future, the company could expand the system to receive selected BAS data and trends from customer sites. This could allow cloud services to support equipment history, trending, alarms, and troubleshooting while the local BAS continues to control the building.
+
+For this scenario, **remote accessibility is the requirement that decided my recommendation** because technicians need access to the system from different customer locations.
+
+## AI Assistance Disclosure
+
+I used ChatGPT by OpenAI to help organize the assignment and improve the wording of the business scenario and deployment comparison. I reviewed the workload requirements and selected remote accessibility as the deciding requirement based on my own reasoning.
