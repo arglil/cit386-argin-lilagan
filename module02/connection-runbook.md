@@ -53,3 +53,26 @@ The `.ppk` file will be used later when setting up PuTTY.
 13. Click **Save**.
 
 The connection is now saved. The next time PuTTY is opened, select `CIT386 Server`, click **Load**, and then click **Open**.
+
+## Connect to the Server
+
+1. Open PuTTY.
+2. Select `CIT386 Server` under **Saved Sessions**.
+3. Click **Load**.
+4. Click **Open**.
+5. The first time you connect, PuTTY may show a **host key warning**.
+6. This warning means PuTTY has not connected to this server before.
+7. Make sure you are connecting to the server provided by the instructor, then accept the warning.
+8. PuTTY will remember the server for future connections.
+
+A successful connection will open a terminal window and display a command prompt on the server. Once the prompt appears, the SSH connection is working.
+
+## Troubleshooting
+
+### 1. Connection Not Supported
+
+**Message:** The connection showed a message saying it was “not supported.”
+
+**What it means:** In my case, the PuTTY session was not completely set up before I tried to connect.
+
+**First thing to check:** Go back to **Session** and make sure the connection information is entered. Enter a name under **Saved Sessions**, click **Save**, then select the session and click **Load** before opening it.
