@@ -1,0 +1,20 @@
+flowchart TD
+
+    subgraph RG["Azure Resource Group"]
+
+        VM["Virtual Machine - VM01"]
+        DISK["Managed Disk"]
+        NIC["Network Interface"]
+        NSG["Network Security Group"]
+        SUBNET["Subnet"]
+        VNET["Virtual Network"]
+        PIP["Public IP Address"]
+
+        DISK --> VM
+        VM --> NIC
+        NIC --> SUBNET
+        SUBNET --> VNET
+        NSG --> NIC
+        PIP --> NIC
+
+    end
