@@ -67,6 +67,12 @@ The connection is now saved. The next time PuTTY is opened, select `CIT386 Serve
 
 A successful connection will open a terminal window and display a command prompt on the server. Once the prompt appears, the SSH connection is working.
 
+## Successful Connection
+
+When the connection is successful, PuTTY opens a terminal window and asks for the login name. After entering the correct login, the server authenticates using the public key.
+
+A successful connection will then show a shell prompt. This means the SSH connection is working.
+
 ## Troubleshooting
 
 ### 1. Connection Not Supported
@@ -76,3 +82,15 @@ A successful connection will open a terminal window and display a command prompt
 **What it means:** In my case, the PuTTY session was not completely set up before I tried to connect.
 
 **First thing to check:** Go back to **Session** and make sure the connection information is entered. Enter a name under **Saved Sessions**, click **Save**, then select the session and click **Load** before opening it.
+
+## Key Handling
+
+The private key must be kept secure. Do not upload it to GitHub or share it with anyone.
+
+The public key can be copied to another machine if needed. The private key should not be copied or shared unless specifically authorized.
+
+If the private key is exposed, stop using it and notify the instructor so a new key pair can be issued.
+
+The first time you connect to the server, PuTTY may display a host key warning. This means PuTTY has not connected to this server before and does not have the server's host key saved.
+
+Make sure you are connecting to the correct server provided by the instructor, then accept the warning. PuTTY will remember the server's host key for future connections.
